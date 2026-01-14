@@ -16,6 +16,12 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@org/source"]
+    "customConditions": ["@merlynx/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@merlynx/shared-types": ["libs/shared/types/src/index.ts"],
+      "@merlynx/database": ["libs/database/src/index.ts"],
+      "@merlynx/lightspeed-client": ["libs/lightspeed-client/src/index.ts"]
+    }
   }
 }

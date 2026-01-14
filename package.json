@@ -1,5 +1,5 @@
 {
-  "name": "@org/source",
+  "name": "@merlynx/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
@@ -16,6 +16,8 @@
     "typescript": "~5.9.2"
   },
   "workspaces": [
-    "packages/*"
+    "apps/*",
+    "libs/*",
+    "libs/shared/*"
   ]
 }
